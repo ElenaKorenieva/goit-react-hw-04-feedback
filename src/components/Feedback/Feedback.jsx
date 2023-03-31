@@ -1,9 +1,9 @@
 import { useState } from 'react';
 import { Container } from './Feedback.styled';
-import { FeedbackOptions } from '../FeedbackOptions/FeedbackOptions';
-import { Message } from '../Message/Message';
-import { Section } from '../Section/Section';
-import { Statistics } from '../Statistics/Statistics';
+import { FeedbackOptions } from '../FeedbackOptions';
+import { Message } from '../Message';
+import { Section } from '../Section';
+import { Statistics } from '../Statistics';
 
 export const Feedback = () => {
   const [feedback, setFeedback] = useState({
